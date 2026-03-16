@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.dandebugger-icon {
+    width: 50px;
+    display: block;
+    height: 50px;
+}
+
+figure {
+    margin: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+
+
+/*
+
+
+ NAVIGATION 
+ 
+ */
+
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: none;
+    margin: 0 auto;
+    height: 100px;
+    padding: 0 28px;
+
+}
+
+.nav__logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav__link--list {
+    display:flex;
+    align-items: center;
+    gap: 24px;
+    margin-left: auto;
+}
+
+.nav__link{
+    margin: 0;
+}
+.nav__link--anchor{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: #242424;
+    font-weight: 700;
+
+}
+
+.nav__link--theme-toggle .nav__link--anchor {
+    min-width: 20px;
+}
+
+.fa-circle-half-stroke{
+    font-size: 20px; 
+}
