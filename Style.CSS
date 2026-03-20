@@ -19,6 +19,16 @@ li{
 }
 
 
+ /* LANDING PAGE */
+#LANDING-PAGE{
+    MIN-HEIGHT: 100VH;
+}
+
+section{
+    background-color: rgb(245,245,245);
+}
+
+
 
 /*
 
@@ -26,6 +36,11 @@ li{
  NAVIGATION 
  
  */
+
+
+
+
+
 
 
 nav{
