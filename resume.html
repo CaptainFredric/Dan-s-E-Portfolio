@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aden Cisneros Resume</title>
+    <style>
+        :root {
+            color-scheme: light;
+            --bg: #f4f6fb;
+            --surface: #ffffff;
+            --text: #111827;
+            --muted: #4b5563;
+            --accent: #2563eb;
+            --border: #dbe2ef;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 40px 20px;
+            font-family: Inter, Roboto, Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.55;
+        }
+
+        .resume {
+            width: min(900px, 100%);
+            margin: 0 auto;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 18px;
+            padding: 40px;
+            box-shadow: 0 18px 45px rgba(15, 23, 42, 0.08);
+        }
+
+        h1 {
+            margin: 0 0 10px;
+            font-size: 34px;
+            letter-spacing: -0.03em;
+        }
+
+        h2 {
+            margin: 28px 0 10px;
+            font-size: 16px;
+            letter-spacing: 0.08em;
+            color: var(--accent);
+        }
+
+        p {
+            margin: 0 0 12px;
+        }
+
+        .contact {
+            color: var(--muted);
+            margin-bottom: 20px;
+        }
+
+        .contact a,
+        .project-links a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .contact a:hover,
+        .project-links a:hover {
+            text-decoration: underline;
+        }
+
+        .skills-row,
+        .edu-line {
+            margin-bottom: 8px;
+        }
+
+        .label {
+            font-weight: 700;
+        }
+
+        .project {
+            margin-top: 18px;
+            padding-top: 18px;
+            border-top: 1px solid var(--border);
+        }
+
+        .project:first-of-type {
+            border-top: none;
+            padding-top: 0;
+        }
+
+        .project-title {
+            font-size: 19px;
+            font-weight: 700;
+            margin-bottom: 6px;
+        }
+
+        .project-links {
+            margin-bottom: 10px;
+            color: var(--muted);
+        }
+
+        ul {
+            margin: 0 0 10px 18px;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .tech-stack {
+            color: var(--muted);
+        }
+
+        @media print {
+            body {
+                background: #fff;
+                padding: 0;
+            }
+
+            .resume {
+                box-shadow: none;
+                border: none;
+                width: 100%;
+                border-radius: 0;
+                padding: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main class="resume">
+        <h1>ADEN CISNEROS</h1>
+        <p class="contact">Omaha, NE | (402) 516-5521 | <a href="mailto:cisnerosadencode@gmail.com">cisnerosadencode@gmail.com</a> | <a href="https://linkedin.com/in/aden-cisneros" target="_blank" rel="noopener">linkedin.com/in/aden-cisneros</a> | <a href="https://github.com/CaptainFredric" target="_blank" rel="noopener">github.com/CaptainFredric</a></p>
+
+        <h2>PROFESSIONAL SUMMARY</h2>
+        <p>Disciplined and analytical software engineer with experience building interactive, data-driven web applications. I apply a systematic, problem-solving approach honed through a pre-medicine background to create resilient, logical, and user-centric experiences. Eager to leverage a strong foundational understanding of JavaScript and Python to drive engineering excellence in a software engineering role.</p>
+
+        <h2>TECHNICAL SKILLS</h2>
+        <p class="skills-row"><span class="label">Languages:</span> JavaScript (ES6+), Python, HTML5, CSS3, SQL</p>
+        <p class="skills-row"><span class="label">Frameworks &amp; Libraries:</span> Flask, CesiumJS, Vite</p>
+        <p class="skills-row"><span class="label">Databases &amp; Backend:</span> SQLite, REST API Development</p>
+        <p class="skills-row"><span class="label">Tools &amp; Platforms:</span> Git, GitHub, Node.js, Shell Scripting, npm, GitHub Pages</p>
+
+        <h2>PROJECTS</h2>
+
+        <section class="project">
+            <div class="project-title">The Terminal | Financial Market Analysis Workspace</div>
+            <p class="project-links"><a href="https://captainfredric.github.io/The-Terminal/" target="_blank" rel="noopener">Live Demo</a> | <a href="https://github.com/CaptainFredric/The-Terminal" target="_blank" rel="noopener">GitHub</a></p>
+            <ul>
+                <li>Developed a multi-panel terminal UI inspired by Bloomberg utilizing JavaScript and a Python/Flask backend.</li>
+                <li>Integrated market data APIs for real-time stock quotes, charting, and financial news, incorporating user authentication and session workflows.</li>
+                <li>Engineered account and workspace persistence using SQLite, designing API routes for profile and workspace state management.</li>
+            </ul>
+            <p class="tech-stack"><span class="label">Tech Stack:</span> JavaScript, Python, Flask, SQLite, CSS, HTML</p>
+        </section>
+
+        <section class="project">
+            <div class="project-title">Panopticon Earth (God’s Eye) | 3D Geospatial Intelligence Globe</div>
+            <p class="project-links"><a href="https://captainfredric.github.io/God-s-Eye/" target="_blank" rel="noopener">Live Demo</a> | <a href="https://github.com/CaptainFredric/God-s-Eye" target="_blank" rel="noopener">GitHub</a></p>
+            <ul>
+                <li>Engineered an interactive 3D Earth visualization utilizing CesiumJS and Vite to simulate and track global satellite, flight, and maritime traffic.</li>
+                <li>Developed a glass-style HUD with operational data layers, trust indicators, and integrated a live OpenStreetMap geocoding search feature.</li>
+            </ul>
+            <p class="tech-stack"><span class="label">Tech Stack:</span> JavaScript, CesiumJS, Vite, HTML5, CSS</p>
+        </section>
+
+        <section class="project">
+            <div class="project-title">Bookstore | Interactive Catalog UI</div>
+            <p class="project-links"><a href="https://captainfredric.github.io/Bookstore/" target="_blank" rel="noopener">Live Demo</a> | <a href="https://github.com/CaptainFredric/Bookstore" target="_blank" rel="noopener">GitHub</a></p>
+            <ul>
+                <li>Built a responsive, single-page catalog UI featuring live search, sorting, and genre/format data filtering.</li>
+                <li>Integrated live data from the Open Library API to fetch book cover images, implementing graceful fallback behavior to prevent broken assets.</li>
+                <li>Applied modern accessibility standards including semantic HTML, skip links, labeled form controls, and prefers-reduced-motion support.</li>
+            </ul>
+            <p class="tech-stack"><span class="label">Tech Stack:</span> Vanilla JavaScript, HTML5, CSS3</p>
+        </section>
+
+        <h2>EDUCATION</h2>
+        <p class="edu-line"><span class="label">Creighton University</span> | Omaha, NE</p>
+        <p class="edu-line">Candidate for B.S. in Computer Science | Minor in Philosophy | Expected May 2029</p>
+    </main>
+</body>
+</html>
