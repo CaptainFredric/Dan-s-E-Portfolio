@@ -407,7 +407,41 @@ nav {
     align-items: stretch;
     z-index: 9999;
 }
+.modal__about{
+    background-color: white;
+    padding: 40px 72px;
+    display: flex;
+    flex-direction: column;
+}
 
+.modal__languages {
+    display: flex;
+    gap: 12px;
+    margin-top: 18px;
+    align-items: center;
+    justify-content: flex-start;
+    /* nudge left so badges sit closer to the panel edge */
+    margin-left: -16px;
+}
+
+.modal__language {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.modal__badge {
+    font-size: 28px;
+}
+
+.modal__language--html .modal__badge { color: #e34f26; }
+.modal__language--css .modal__badge { color: #264de4; }
+.modal__language--js .modal__badge { color: #f0db4f; }
+.modal__language--react .modal__badge { color: #61dafb; }
 .modal__half,
 .modal_half { /* keep old selector for compatibility */ 
     flex: 1 1 50%;
