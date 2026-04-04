@@ -107,6 +107,13 @@ height: 40px;
 
 
 }
+textarea{
+resize: vertical;
+height: 100px;
+padding: 15px;
+margin-top: 8px;
+
+}
 
 label{
     font-size: 14px;
@@ -497,6 +504,7 @@ nav {
     flex-direction: column;
     padding: 0;
     overflow: hidden;
+    justify-content: center;
 }
 
 .modal__about {
@@ -516,10 +524,8 @@ nav {
 }
 
 .modal__sub-title {
-    font-size: 13px;
-    font-weight: 400;
-    margin: 12px 0 24px 0;;
-    color: #4973f0;
+    font-size: 14px;
+  margin: 12px 0 24px 0;
 }
 
 .modal__para {
@@ -528,8 +534,22 @@ nav {
     color: #444;
 }
 
+.form__item{
+margin-bottom: 20px;
 
+
+}
+
+.form__submit{
+background-color: #f06449;
+border: 2px solid #f06449;
+color: white;
+font-weight: 700;
+max-width: 240px;
+width: 100%;
+}
 /* PROJECTS */
+
 
 .section__title {
     text-align: center;
