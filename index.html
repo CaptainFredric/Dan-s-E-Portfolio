@@ -84,27 +84,59 @@ Dan's E-Portfolio!
         </a>
         <div class="modal">
             <div class="modal__half modal__about">
-                <h3 class="modal__title modal__title--about">Here's a bit about me</h3>
-                <h4 class="modal__sub-title modal__sub-title--about">Frontend Software Engineer</h4>
-                <p class="modal__para">I am a 19 year old aspiring software developer with a passion for building interactive web applications and exploring new technologies.</p>
+                <h3 class="modal__title modal__title--about">Here's <span class="orange">a bit about me</span></h3>
+                <h4 class="modal__sub-title modal__sub-title--about">Frontend Software Engineer.</h4>
+                <p class="modal__para">I am a 19 year old aspiring <b class="orange">Frontend Software Developer</b> with a strong passion for building websites with great <b class="orange">user experiences.</b><br><br>I currently work on extremely difficult engineering problems and learn from a team consisting of the most <b class="orange">talented</b> and <b class="orange">experienced</b> software engineers every day.</p>
 
                 <div class="modal__languages" aria-hidden="false">
-                    <div class="modal__language modal__language--html" title="HTML5">
+                    <div class="modal__language modal__language--html">
                         <i class="fab fa-html5 modal__badge" aria-hidden="true"></i>
+                        <span class="language__name">HTML</span>
                     </div>
-                    <div class="modal__language modal__language--html" title="HTML5">
-                        <i class="fab fa-html5 modal__badge" aria-hidden="true"></i>
+                    <div class="modal__language modal__language--css">
+                        <i class="fab fa-css3-alt modal__badge" aria-hidden="true"></i>
+                        <span class="language__name">CSS</span>
                     </div>
-                    <div class="modal__language modal__language--html" title="HTML5">
-                        <i class="fab fa-html5 modal__badge" aria-hidden="true"></i>
+                    <div class="modal__language modal__language--js">
+                        <i class="fab fa-js modal__badge" aria-hidden="true"></i>
+                        <span class="language__name">JavaScript</span>
                     </div>
-                    <div class="modal__language modal__language--html" title="HTML5">
-                        <i class="fab fa-html5 modal__badge" aria-hidden="true"></i>
+                    <div class="modal__language modal__language--react">
+                        <i class="fab fa-react modal__badge" aria-hidden="true"></i>
+                        <span class="language__name">React</span>
                     </div>
                 </div>
 
             </div>
-            <div class="modal__half modal__contact"></div>
+            <div class="modal__half modal__contact">
+<h3 class="modal__title modal__title--contact">
+    Hey, let's talk!
+</h3>
+<h3 class="modal__sub-title modal__sub-title--contact">
+    I'm currently open to new opportunities and looking to connect with like-minded professionals in the tech industry.
+</h3>
+<form id="contact__form" action="">
+    <div class="form__item">
+        <label class="form__item--label" >Name
+            <input type= "text" class="input" name="user_name" required>
+        </label>
+    </div>
+    <div class="form__item">
+        <label class="form__item--label" >Email
+            <input type= "email" class="input" name="user_email" required>
+        </label>
+    </div>
+    <div class="form__item">
+        <label class="form__item--label">Message
+            <textarea class="input" name="user_message" required></textarea>
+        </label>
+    </div>
+    <button id="contact__submit" class="form__submit">
+        Send Me On My Way
+    </button>
+</form>
+
+            </div>
         </div>
     </section> 
     
