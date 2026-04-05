@@ -135,8 +135,20 @@ Dan's E-Portfolio!
         Send Me On My Way
     </button>
 </form>
+<div class="modal__overlay--loading">
+<i class="fas fa-spinner">
+
+</i>
+
+</div>
+<div class="modal__overlay modal__overlay--success">
+
+Thanks for reaching out! I'll get back to you as soon as possible.
+</div>
+
 
             </div>
+        <i class="click fas fa-times modal__exit"></i>
         </div>
     </section> 
     
@@ -152,7 +164,7 @@ Dan's E-Portfolio!
             </h1>
             <ul class="ul__project__list">
                 <li class="project">
-                    <div class="project__wrapper">
+                    <div class="project__wrapper" onclick="window.open('https://captainfredric.github.io/God-s-Eye/','_blank')">
                         <img src="./assets/gods-eye-preview.png" class="project__img" alt="Panopticon Earth — God's Eye project screenshot">
                         <div class="project__description">
                             <h3 class="project__description--title">Panopticon Earth</h3>
@@ -160,7 +172,7 @@ Dan's E-Portfolio!
                             <p class="project__description--para">
                                 A globe-first geospatial intelligence experience inspired by Google Earth and command interfaces. Features a live-refreshing 3D Earth with commercial flights, military traffic, satellites, maritime routes, and incident zones — complete with glass HUD panels and geocoding search.
                             </p>
-                            <div class="project__description--links">
+                            <div class="project__description--links" onclick="event.stopPropagation()">
                                 <a href="https://captainfredric.github.io/God-s-Eye/" target="_blank" rel="noopener" class="project__description--link" aria-label="View live site">
                                     <i class="fas fa-link"></i>
                                 </a>
@@ -172,19 +184,19 @@ Dan's E-Portfolio!
                     </div>
                 </li>
                 <li class="project">
-                    <div class="project__wrapper">
-                        <img src="./assets/meridian-preview.jpg" class="project__img" alt="Meridian terminal project screenshot">
+                    <div class="project__wrapper" onclick="window.open('https://captainfredric.github.io/ContentForge/','_blank')">
+                        <img src="./assets/contentforge-preview.png" class="project__img" alt="ContentForge — content scoring API live demo screenshot">
                         <div class="project__description">
-                            <h3 class="project__description--title">Meridian</h3>
-                            <h4 class="project__description--sub-title orange">JavaScript, Flask, SQLite, CSS</h4>
+                            <h3 class="project__description--title">ContentForge</h3>
+                            <h4 class="project__description--sub-title orange">Python, Flask, RapidAPI, Chrome Extension</h4>
                             <p class="project__description--para">
-                                A Bloomberg and Yahoo finance-inspired financial market workspace with multi-panel routing, account persistence, live quote modules, and a dense command-driven interface for analysis and monitoring.
+                                A content intelligence API with 47 endpoints across 12 platforms. Deterministic heuristic scoring grades tweets, LinkedIn posts, headlines, and email subjects with an A–F verdict in under 50ms — no AI in the scoring path. Includes a Chrome extension for real-time scoring and is live on RapidAPI with tiered pricing.
                             </p>
-                            <div class="project__description--links">
-                                <a href="https://captainfredric.github.io/The-Terminal/" target="_blank" rel="noopener" class="project__description--link" aria-label="View Meridian live site">
+                            <div class="project__description--links" onclick="event.stopPropagation()">
+                                <a href="https://captainfredric.github.io/ContentForge/" target="_blank" rel="noopener" class="project__description--link" aria-label="View ContentForge live site">
                                     <i class="fas fa-link"></i>
                                 </a>
-                                <a href="https://github.com/CaptainFredric/The-Terminal" target="_blank" rel="noopener" class="project__description--link" aria-label="View Meridian source on GitHub">
+                                <a href="https://github.com/CaptainFredric/ContentForge" target="_blank" rel="noopener" class="project__description--link" aria-label="View ContentForge source on GitHub">
                                     <i class="fab fa-github"></i>
                                 </a>
                             </div>
@@ -192,19 +204,19 @@ Dan's E-Portfolio!
                     </div>
                 </li>
                 <li class="project">
-                    <div class="project__wrapper">
-                        <img src="./assets/bookstore-preview.jpg" class="project__img" alt="Bookstore project screenshot">
+                    <div class="project__wrapper" onclick="window.open('https://captainfredric.github.io/The-Terminal/','_blank')">
+                        <img src="./assets/meridian-preview.png" class="project__img" alt="Meridian — Bloomberg-inspired market workspace screenshot">
                         <div class="project__description">
-                            <h3 class="project__description--title">Bookstore</h3>
-                            <h4 class="project__description--sub-title orange">Vanilla JavaScript, HTML5, CSS3</h4>
+                            <h3 class="project__description--title">Meridian</h3>
+                            <h4 class="project__description--sub-title orange">JavaScript, Flask, SQLite, CSS</h4>
                             <p class="project__description--para">
-                                A responsive catalog UI with live search, sorting, genre and format filtering, and real Open Library cover images. Built with accessible markup and static-hosting-friendly architecture.
+                                A Bloomberg-inspired financial market workspace with a real Flask + SQLite backend, authenticated sessions, and persistent workspaces. Features a four-panel terminal with live quotes, charts, news, watchlists, options chains, and a custom LogicEngine that parses IF/THEN alert rules against live market state.
                             </p>
-                            <div class="project__description--links">
-                                <a href="https://captainfredric.github.io/Bookstore/" target="_blank" rel="noopener" class="project__description--link" aria-label="View Bookstore live site">
-                                    <i class= "fas fa-link"></i>
+                            <div class="project__description--links" onclick="event.stopPropagation()">
+                                <a href="https://captainfredric.github.io/The-Terminal/" target="_blank" rel="noopener" class="project__description--link" aria-label="View Meridian live site">
+                                    <i class="fas fa-link"></i>
                                 </a>
-                                <a href="https://github.com/CaptainFredric/Bookstore" target="_blank" rel="noopener" class="project__description--link" aria-label="View Bookstore source on GitHub">
+                                <a href="https://github.com/CaptainFredric/The-Terminal" target="_blank" rel="noopener" class="project__description--link" aria-label="View Meridian source on GitHub">
                                     <i class="fab fa-github"></i>
                                 </a>
                             </div>
