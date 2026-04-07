@@ -1,0 +1,36 @@
+<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sg" x1="22" y1="38" x2="138" y2="122" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <!-- Body -->
+    <ellipse cx="80" cy="84" rx="12" ry="14" stroke="url(#sg)" stroke-width="3.5" fill="#3B82F6" fill-opacity="0.10"/>
+    <!-- Head -->
+    <circle cx="80" cy="64" r="6" stroke="url(#sg)" stroke-width="3.5" fill="#3B82F6" fill-opacity="0.10"/>
+    <!-- Eyes -->
+    <circle cx="77" cy="62" r="2" fill="#22D3EE"/>
+    <circle cx="83" cy="62" r="2" fill="#22D3EE"/>
+    <!-- Right legs -->
+    <polyline points="90,70 106,52 130,38" stroke="url(#sg)" stroke-width="3" fill="none"/>
+    <polyline points="92,78 114,66 138,62" stroke="#7DD3FC" stroke-width="3" fill="none"/>
+    <polyline points="92,90 114,94 138,98" stroke="#7DD3FC" stroke-width="3" fill="none"/>
+    <polyline points="90,96 106,108 130,122" stroke="url(#sg)" stroke-width="3" fill="none"/>
+    <!-- Left legs -->
+    <polyline points="70,70 54,52 30,38" stroke="url(#sg)" stroke-width="3" fill="none"/>
+    <polyline points="68,78 46,66 22,62" stroke="#7DD3FC" stroke-width="3" fill="none"/>
+    <polyline points="68,90 46,94 22,98" stroke="#7DD3FC" stroke-width="3" fill="none"/>
+    <polyline points="70,96 54,108 30,122" stroke="url(#sg)" stroke-width="3" fill="none"/>
+    <!-- Foot dots -->
+    <circle cx="130" cy="38" r="2.5" fill="#22D3EE"/>
+    <circle cx="138" cy="62" r="2.5" fill="#3B82F6"/>
+    <circle cx="138" cy="98" r="2.5" fill="#22D3EE"/>
+    <circle cx="130" cy="122" r="2.5" fill="#3B82F6"/>
+    <circle cx="30" cy="38" r="2.5" fill="#3B82F6"/>
+    <circle cx="22" cy="62" r="2.5" fill="#22D3EE"/>
+    <circle cx="22" cy="98" r="2.5" fill="#3B82F6"/>
+    <circle cx="30" cy="122" r="2.5" fill="#22D3EE"/>
+  </g>
+</svg>

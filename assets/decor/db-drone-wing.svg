@@ -1,0 +1,35 @@
+<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="dg" x1="30" y1="20" x2="130" y2="140" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <!-- Body -->
+    <line x1="80" y1="42" x2="80" y2="136" stroke="url(#dg)" stroke-width="3.5"/>
+    <!-- Head -->
+    <circle cx="80" cy="30" r="7" stroke="url(#dg)" stroke-width="3.5" fill="#3B82F6" fill-opacity="0.10"/>
+    <!-- Eyes -->
+    <circle cx="74" cy="28" r="3" fill="#22D3EE"/>
+    <circle cx="86" cy="28" r="3" fill="#22D3EE"/>
+    <!-- Upper wings -->
+    <ellipse cx="52" cy="52" rx="26" ry="8" transform="rotate(-15 52 52)" stroke="url(#dg)" stroke-width="2.5" fill="#22D3EE" fill-opacity="0.06"/>
+    <ellipse cx="108" cy="52" rx="26" ry="8" transform="rotate(15 108 52)" stroke="url(#dg)" stroke-width="2.5" fill="#22D3EE" fill-opacity="0.06"/>
+    <!-- Lower wings -->
+    <ellipse cx="56" cy="68" rx="22" ry="7" transform="rotate(12 56 68)" stroke="#7DD3FC" stroke-width="2.5" fill="#3B82F6" fill-opacity="0.06"/>
+    <ellipse cx="104" cy="68" rx="22" ry="7" transform="rotate(-12 104 68)" stroke="#7DD3FC" stroke-width="2.5" fill="#3B82F6" fill-opacity="0.06"/>
+    <!-- Wing veins - upper -->
+    <line x1="27" y1="59" x2="77" y2="45" stroke="#7DD3FC" stroke-width="2" opacity="0.5"/>
+    <line x1="83" y1="45" x2="133" y2="59" stroke="#7DD3FC" stroke-width="2" opacity="0.5"/>
+    <!-- Wing veins - lower -->
+    <line x1="36" y1="63" x2="76" y2="73" stroke="#7DD3FC" stroke-width="2" opacity="0.5"/>
+    <line x1="84" y1="73" x2="124" y2="63" stroke="#7DD3FC" stroke-width="2" opacity="0.5"/>
+    <!-- Thorax -->
+    <circle cx="80" cy="48" r="4" fill="#3B82F6" fill-opacity="0.15" stroke="url(#dg)" stroke-width="2"/>
+    <!-- Tail segments -->
+    <circle cx="80" cy="96" r="3.5" fill="#22D3EE"/>
+    <circle cx="80" cy="112" r="2.5" fill="#3B82F6"/>
+    <circle cx="80" cy="126" r="2" fill="#22D3EE"/>
+  </g>
+</svg>

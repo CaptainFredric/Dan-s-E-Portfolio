@@ -1,0 +1,32 @@
+<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="tg" x1="20" y1="42" x2="140" y2="118" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <!-- Main bus -->
+    <line x1="20" y1="80" x2="140" y2="80" stroke="url(#tg)" stroke-width="3.5"/>
+    <!-- Branch 1: up then right -->
+    <path d="M40 80 V48 H62" stroke="#7DD3FC" stroke-width="3" fill="none"/>
+    <!-- Branch 2: down then right -->
+    <path d="M68 80 V108 H96" stroke="#7DD3FC" stroke-width="3" fill="none"/>
+    <!-- Branch 3: up then right -->
+    <path d="M102 80 V42 H130" stroke="url(#tg)" stroke-width="3" fill="none"/>
+    <!-- Branch 4: straight down -->
+    <line x1="124" y1="80" x2="124" y2="118" stroke="url(#tg)" stroke-width="3"/>
+    <!-- Via dots at junctions -->
+    <circle cx="40" cy="80" r="4" fill="#3B82F6" fill-opacity="0.25" stroke="url(#tg)" stroke-width="2"/>
+    <circle cx="68" cy="80" r="4" fill="#3B82F6" fill-opacity="0.25" stroke="url(#tg)" stroke-width="2"/>
+    <circle cx="102" cy="80" r="4" fill="#3B82F6" fill-opacity="0.25" stroke="url(#tg)" stroke-width="2"/>
+    <circle cx="124" cy="80" r="4" fill="#3B82F6" fill-opacity="0.25" stroke="url(#tg)" stroke-width="2"/>
+    <!-- Terminal dots -->
+    <circle cx="20" cy="80" r="3" fill="#22D3EE"/>
+    <circle cx="140" cy="80" r="3" fill="#22D3EE"/>
+    <circle cx="62" cy="48" r="3" fill="#3B82F6"/>
+    <circle cx="96" cy="108" r="3" fill="#22D3EE"/>
+    <circle cx="130" cy="42" r="3" fill="#3B82F6"/>
+    <circle cx="124" cy="118" r="3" fill="#22D3EE"/>
+  </g>
+</svg>
