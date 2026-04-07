@@ -12,6 +12,8 @@ Dan's E-Portfolio!
     </title>
     <link rel="stylesheet" href="Style.CSS">
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="index.js"></script>
 </head>
 <body>
     <section id ="landing-page">
@@ -28,9 +30,9 @@ Dan's E-Portfolio!
                     <a href="#" class="nav__link--anchor link__hover-effect link__hover-effect--black">Projects</a>
                 </li>
                 <li class="nav__link">
-                    <a href="#" class="nav__link--anchor link__hover-effect link__hover-effect--black">Contact</a>
+                    <a href="#" class="nav__link--anchor link__hover-effect link__hover-effect--black click" onclick="toggleModal()">Contact</a>
                 </li>
-                <li class="nav__link nav__link--theme-toggle">
+                <li class="nav__link nav__link--theme-toggle" onclick="toggleContrast()">
                     <a href="#" class="nav__link--anchor link__hover-effect link__hover-effect--black" aria-label="Toggle theme">
                         <i class="fas fa-adjust"></i>
                     </a>
@@ -74,7 +76,7 @@ Dan's E-Portfolio!
                 </div>
             </div>
         </header>
-        <button class="mail__btn click" aria-label="Send email">
+        <button class="mail__btn click" aria-label="Send email" onclick="toggleModal()">
             <svg viewBox="0 0 24 24" class="mail__icon" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                 <path d="M20 4H4C2.897 4 2 4.897 2 6v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm0 2-8 5-8-5h16zm0 12H4V8.868l8 5 8-5V18z"/>
             </svg>
@@ -109,37 +111,36 @@ Dan's E-Portfolio!
 
             </div>
             <div class="modal__half modal__contact">
+                        <i class="click fas fa-times modal__exit" onclick="toggleModal()"></i>
+
 <h3 class="modal__title modal__title--contact">
     Hey, let's talk!
 </h3>
 <h3 class="modal__sub-title modal__sub-title--contact">
     I'm currently open to new opportunities and looking to connect with like-minded professionals in the tech industry.
 </h3>
-<form id="contact__form" action="">
+<form id="contact__form" onsubmit="contact(event)">
     <div class="form__item">
         <label class="form__item--label" >Name
-            <input type= "text" class="input" name="user_name" required>
+            <input type= "text" class="input" name="user_name">
         </label>
     </div>
     <div class="form__item">
         <label class="form__item--label" >Email
-            <input type= "email" class="input" name="user_email" required>
+            <input type= "email" class="input" name="user_email">
         </label>
     </div>
     <div class="form__item">
         <label class="form__item--label">Message
-            <textarea class="input" name="user_message" required></textarea>
+            <textarea class="input" name="user_message"></textarea>
         </label>
     </div>
     <button id="contact__submit" class="form__submit">
         Send Me On My Way
     </button>
 </form>
-<div class="modal__overlay--loading">
-<i class="fas fa-spinner">
-
-</i>
-
+<div class="modal__overlay modal__overlay--loading">
+    <i class="fas fa-spinner"></i>
 </div>
 <div class="modal__overlay modal__overlay--success">
 
@@ -148,7 +149,6 @@ Thanks for reaching out! I'll get back to you as soon as possible.
 
 
             </div>
-        <i class="click fas fa-times modal__exit"></i>
         </div>
     </section> 
     

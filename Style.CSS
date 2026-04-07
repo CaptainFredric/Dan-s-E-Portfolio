@@ -83,6 +83,107 @@ button{
     transform: scaleX(1);
     transform-origin: left;
 }
+
+.modal--open nav, .modal--open .scroll, .modal--open .header{
+    opacity: 0;
+    visibility: hidden;
+    transition: all 600ms 200ms;
+    
+}
+ *
+nav,.scroll,.header{
+    opacity: 1;
+    visibility: visible;
+    transition: all 400ms 600ms;
+}
+/* ── Dark theme ─────────────────────────────────────────── */
+
+/* Global body text */
+.dark-theme {
+    color: white;
+}
+
+/* Text that must flip to white */
+.dark-theme .title,
+.dark-theme .header__title,
+.dark-theme .section__title,
+.dark-theme .section__sub-title,
+.dark-theme .nav__link--anchor,
+.dark-theme .fa-adjust,
+.dark-theme .header__para {
+    color: white;
+}
+
+/* Section backgrounds — landing slightly darker for depth */
+.dark-theme section {
+    background-color: #242424;
+}
+
+.dark-theme #landing-page {
+    background-color: #1a1a1f;
+}
+
+.dark-theme #personal-logo {
+    filter: none;
+}
+
+/* Scroll indicator — fix missing dots (was "scroll__icon", not ".scroll__icon") */
+.dark-theme .scroll__icon {
+    border-color: rgba(255, 255, 255, 0.45);
+}
+
+.dark-theme .scroll__icon:after {
+    background-color: rgba(255, 255, 255, 0.45);
+}
+
+/* Hover-underline bar colours */
+.dark-theme .link__hover-effect--black:after {
+    background-color: white;
+}
+
+.dark-theme .link__hover-effect--white:after {
+    background-color: #1a1a1f;
+}
+
+/* Mail button */
+.dark-theme .mail__btn {
+    background-color: white;
+    color: #1a1a1f;
+}
+
+/* ── DeBugger title — dark-mode palette ─────────────────── */
+/* Light  : Dan=#4973f0  De=#0a4282  Bugger=#49d1f0        */
+/* Dark   : electric-blue → violet → cyan for max contrast */
+.dark-theme .title--secondary {
+    color: #6694ff;
+}
+
+.dark-theme .De {
+    color: #a78bfa;
+}
+
+.dark-theme .Bugger {
+    color: #22d3ee;
+}
+
+/* ── Modal — about panel goes dark ─────────────────────── */
+.dark-theme .modal__about {
+    background-color: #1e1e24;
+    color: white;
+}
+
+.dark-theme .modal__title--about,
+.dark-theme .modal__sub-title--about {
+    color: white;
+}
+
+.dark-theme .modal__para {
+    color: #9ca3af;
+}
+
+.dark-theme .language__name {
+    color: white;
+}
  /* LANDING PAGE */
 #landing-page {
     min-height: 100vh;
@@ -143,6 +244,11 @@ label{
     font-weight: bold;
      
 }
+
+
+
+
+
 .container{
     padding:50px 0 ;
 display:flex;
@@ -452,12 +558,22 @@ nav {
     width: 90%;
     max-width: 1100px;
     height: 700px;
-    box-shadow: 0 20px 80px 0 rgba(0,0,0,0.55);
+   
     border-radius: 20px;
     overflow: hidden;
     display: flex;
     align-items: stretch;
     z-index: 9999;
+    transition: visibility 1s, z-index 1s, box-shadow 0.5s ease;
+
+    visibility: hidden;
+z-index: -1;
+}
+.modal--open .modal{
+
+    z-index: 60;
+    box-shadow: 0 20px 80px 0 rgba(0,0,0,0.55);
+    visibility: visible;
 }
 .modal__about{
     background-color: white;
@@ -465,8 +581,18 @@ nav {
     display: flex;
     flex-direction: column;
    justify-content: center;
+   transform: translateX(-110%);
 }
 
+.modal--open .modal__about{
+transform: translateX(0%);
+
+
+}
+
+.modal--open .modal__contact{
+transform: translateX(0%);
+}
 .modal__languages {
     display: flex;
     gap: 12px;
@@ -529,6 +655,7 @@ nav {
     overflow: hidden;
     justify-content: center;
     position: relative;
+    transition: all 300ms ease-in;
 }
 
 .modal__about {
@@ -541,6 +668,7 @@ nav {
     background-color: #000000;
     color: #fff;
     padding: 32px;
+    transform: translateX(110%);
 }
 
 .modal__title {
@@ -592,24 +720,14 @@ transition: all 300ms ease;
     left: 0;
     width: 100%;
     height: 100%;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
 }
 .modal__overlay--loading{
-
-    background-color:black;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-color: black;
+    color: white;
     font-size: 80px;
-    z-index: -1;
-
 }
 .modal__overlay--success{
  position: absolute;
@@ -624,7 +742,10 @@ transition: all 300ms ease;
     padding: 25px;
 
 }
-
+.modal__overlay--visible{
+    z-index: 1;
+    display: flex;
+}
 .fa-spinner{
     animation: spinner 750ms infinite linear;
 }
