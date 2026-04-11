@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../PromisesFrontend"
+		}
+	],
+	"settings": {
+		"liveServer.settings.wait": 500,
+		"liveServer.settings.multiRootWorkspaceName": "Dan-s-E-Portfolio"
+	}
+}
