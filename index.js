@@ -52,3 +52,7 @@ function toggleModal(){
     document.body.classList.add('modal--open');
 }
 // Public key: FJycpJmjl6xe6BqjR
+
+function moveBackgorund(event){
+    
+}

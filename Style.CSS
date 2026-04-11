@@ -967,3 +967,85 @@ footer{
     font-size: 11px;
     color: #c5c5c5;
 }
+
+/* SITE SHAPES */
+
+/* Shapes on the first row
+   height = 35vh
+   shapes on the second row
+   height = 70vh
+   
+   shapes on the third row
+   height = 95vh
+   
+   
+   shapes on the first column
+   width = 5vw
+   
+   shapes on the second column = 50vw
+   
+   shapes on the third column = 80vw
+*/
+
+.shape {
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    opacity: 0.7;
+    pointer-events: none;
+    z-index: -0.5;
+}
+
+/* Row 1 shapes (top: 35vh) - 4 shapes distributed across columns */
+.shape--0 {
+    top: 35vh;
+    left: 5vw;
+}
+
+.shape--1 {
+    top: 35vh;
+    left: 25vw;
+}
+
+.shape--2 {
+    top: 35vh;
+    left: 50vw;
+}
+
+.shape--3 {
+    top: 35vh;
+    left: 80vw;
+}
+
+/* Row 2 shapes (top: 70vh) - 3 shapes at main columns */
+.shape--4 {
+    top: 70vh;
+    left: 5vw;
+}
+
+.shape--5 {
+    top: 70vh;
+    left: 50vw;
+}
+
+.shape--6 {
+    top: 70vh;
+    left: 80vw;
+}
+
+/* Row 3 shapes (top: 95vh) - 3 shapes at main columns */
+.shape--7 {
+    top: 95vh;
+    left: 5vw;
+}
+
+.shape--8 {
+    top: 95vh;
+    left: 50vw;
+}
+
+.shape--9 {
+    top: 95vh;
+    left: 80vw;
+}
+
