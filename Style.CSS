@@ -4,7 +4,9 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
-
+html{
+scroll-behavior: smooth;
+}
 body {
     color: #111111;
 }
@@ -46,6 +48,9 @@ button{
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    z-index: 101;
+    position: fixed;
+    box-shadow: 0 12px 30px 0 rgb(0, 0, 0, 0.2);
 }
 
 .mail__icon {
@@ -230,13 +235,13 @@ input:focus, textarea:focus{
 
 }
 
-.click: hover{
+.click:hover{
 
     transform: scale(1.1);
 
 }
 
-.click: active{
+.click:active{
     transform: scale(0.8);
 }
 label{
@@ -996,6 +1001,27 @@ footer{
     z-index: -0.5;
 }
 
+/* Top pre-row shapes to fill the empty hero space above the first main row */
+.shape--10 {
+    top: 14vh;
+    left: 10vw;
+}
+
+.shape--11 {
+    top: 11vh;
+    left: 34vw;
+}
+
+.shape--12 {
+    top: 17vh;
+    left: 62vw;
+}
+
+.shape--13 {
+    top: 13vh;
+    left: 84vw;
+}
+
 /* Row 1 shapes (top: 35vh) - 4 shapes distributed across columns */
 .shape--0 {
     top: 35vh;
@@ -1049,3 +1075,59 @@ footer{
     left: 80vw;
 }
 
+/* Small phones, tablets, large smart phones */
+
+@media (max-width: 768px){
+
+    .title{
+        font-size: 80px;
+
+    }
+.header__para{
+    font-size: 20px;
+}
+.modal{
+    top: 0;
+    left: 0;
+    height: auto;
+    transform: none;
+    width: 100%;
+    flex-direction: column-reverse;
+border-radius: 0;
+
+
+}
+.modal__half{
+    width: 100%;
+}
+}
+
+/* small phones, tablets, large smart phones */
+
+@media (max-width: 480px){
+    .title{
+        font-size: 52px;
+    }
+    .header__para{
+        font-size: 18px;
+    }
+    .nav__link:first-child{
+        display: none;
+    }
+    .project__description--para{
+        display: none;
+    
+    }
+    .project__description{
+        left: 0;
+        padding: 0; 
+        width: 100%;
+        text-align: center;
+    }
+    .project__description--sub-title{
+        margin-bottom: 8px;
+    }
+    .modal__half{
+        padding: 40px;
+    }
+}

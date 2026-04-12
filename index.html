@@ -16,21 +16,21 @@ Dan's E-Portfolio!
     <script src="index.js"></script>
 </head>
 <body>
-    <section id ="landing-page" onmousemove="moveBackgorund(event)">
+    <section id ="landing-page" onmousemove="moveBackground(event)">
         <nav>
             <figure class="nav__logo">
                 <img class="dandebugger-icon" src="./assets/dandebugger-icon.png" alt="Dan Debugger icon">
             </figure>
 
             <ul class="nav__link--list">
-                <li class="nav__link">
-                    <a href="#" class="nav__link--anchor link__hover-effect link__hover-effect--black">About</a>
+                <li class="nav__link" onclick="toggleModal()"">
+                    <a href="#about" class="nav__link--anchor link__hover-effect link__hover-effect--black">About</a>
                 </li>
                 <li class="nav__link">
-                    <a href="#" class="nav__link--anchor link__hover-effect link__hover-effect--black">Projects</a>
+                    <a href="#projects" class="nav__link--anchor link__hover-effect link__hover-effect--black">Projects</a>
                 </li>
                 <li class="nav__link">
-                    <a href="#" class="nav__link--anchor link__hover-effect link__hover-effect--black click" onclick="toggleModal()">Contact</a>
+                    <a href="#contact" class="nav__link--anchor link__hover-effect link__hover-effect--black click" onclick="toggleModal()">Contact</a>
                 </li>
                 <li class="nav__link nav__link--theme-toggle" onclick="toggleContrast()">
                     <a href="#" class="nav__link--anchor link__hover-effect link__hover-effect--black" aria-label="Toggle theme">
@@ -76,6 +76,7 @@ Dan's E-Portfolio!
                 </div>
             </div>
         </header>
+        
         <button class="mail__btn click" aria-label="Send email" onclick="toggleModal()">
             <svg viewBox="0 0 24 24" class="mail__icon" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                 <path d="M20 4H4C2.897 4 2 4.897 2 6v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm0 2-8 5-8-5h16zm0 12H4V8.868l8 5 8-5V18z"/>
@@ -150,6 +151,10 @@ Thanks for reaching out! I'll get back to you as soon as possible.
 
             </div>
         </div>
+        <img src="./assets/decor/db-trace-orb.svg" class ="shape shape--10" alt="Dan de Bugger trace orb decoration">
+        <img src="./assets/decor/db-microchip-core.svg" class ="shape shape--11" alt="Dan de Bugger microchip core decoration">
+        <img src="./assets/decor/db-drone-wing.svg" class ="shape shape--12" alt="Dan de Bugger drone wing decoration">
+        <img src="./assets/decor/db-scarab-mark.svg" class ="shape shape--13" alt="Dan de Bugger scarab mark decoration">
         <img src="./assets/decor/db-circuit-beetle.svg" class ="shape shape--0" alt="Dan de Bugger circuit beetle decoration">
             <img src="./assets/decor/db-drone-wing.svg" class ="shape shape--1" alt="Dan de Bugger drone wing decoration">
                 <img src="./assets/decor/db-microchip-core.svg" class ="shape shape--2" alt="Dan de Bugger microchip core decoration">
@@ -247,6 +252,7 @@ Thanks for reaching out! I'll get back to you as soon as possible.
                 <a href="https://www.linkedin.com/in/aden-cisneros/" target="_blank" rel="noopener" class="footer__social--link">LinkedIn</a>
                 <a href="mailto:cisnerosadencode@gmail.com" class="footer__social--link">Email</a>
                 <a href="./resume.html" target="_blank" rel="noopener" class="footer__social--link">Resume</a>
+                <a href="#landing-page" class="footer__social--link" onclick="toggleModal()">Contact</a>
             </div>
             <div class="footer__copyright"> Copyright &copy; 2024 Aden Cisneros (aka.Dan Debugger)</div>
         </div>
