@@ -26,13 +26,17 @@ function bindModalTriggers() {
 
     openTriggers.forEach((trigger) => {
         trigger.addEventListener('click', (event) => {
+            const scrollTarget = trigger.getAttribute('data-scroll-target');
+
             if (trigger.tagName === 'A') {
                 event.preventDefault();
-                const targetSelector = trigger.getAttribute('href');
-                if (targetSelector && targetSelector.startsWith('#') && targetSelector.length > 1) {
-                    document.querySelector(targetSelector)?.scrollIntoView({ behavior: 'smooth' });
-                }
             }
+
+            const targetSelector = scrollTarget || trigger.getAttribute('href');
+            if (targetSelector && targetSelector.startsWith('#') && targetSelector.length > 1) {
+                document.querySelector(targetSelector)?.scrollIntoView({ behavior: 'smooth' });
+                }
+
             openModal();
         });
     });
