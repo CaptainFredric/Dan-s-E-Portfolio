@@ -12,8 +12,8 @@ Dan's E-Portfolio!
     </title>
     <link rel="stylesheet" href="Style.CSS">
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-    <script src="index.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script defer src="index.js"></script>
 </head>
 <body>
     <section id ="landing-page" onmousemove="moveBackground(event)">
@@ -23,14 +23,14 @@ Dan's E-Portfolio!
             </figure>
 
             <ul class="nav__link--list">
-                <li class="nav__link" onclick="toggleModal()"">
-                    <a href="#about" class="nav__link--anchor link__hover-effect link__hover-effect--black">About</a>
+                <li class="nav__link">
+                    <a href="#" class="nav__link--anchor link__hover-effect link__hover-effect--black" data-open-modal>About</a>
                 </li>
                 <li class="nav__link">
                     <a href="#projects" class="nav__link--anchor link__hover-effect link__hover-effect--black">Projects</a>
                 </li>
                 <li class="nav__link">
-                    <a href="#contact" class="nav__link--anchor link__hover-effect link__hover-effect--black click" onclick="toggleModal()">Contact</a>
+                    <a href="#landing-page" class="nav__link--anchor link__hover-effect link__hover-effect--black click" data-open-modal>Contact</a>
                 </li>
                 <li class="nav__link nav__link--theme-toggle" onclick="toggleContrast()">
                     <a href="#" class="nav__link--anchor link__hover-effect link__hover-effect--black" aria-label="Toggle theme">
@@ -44,8 +44,8 @@ Dan's E-Portfolio!
                 <h1 class="header__title">Hey, I'm Dan,</h1>
                 <h1 class="title title--secondary">Dan <span class="De">De</span><span class="Bugger">Bugger</span></h1>
                 <p class="header__para">
-                    I'm a <b class="orange">Frontend Software Engineer</b> with a strong work ethic
-                    and complete tasks with reliability and (you)sers in mind.
+                    I'm an <b class="orange">Aspiring Frontend Developer</b> with a strong work ethic
+                    and I approach each project with reliability and the (you)ser in mind.
                     <br><br>Here is more <b class="orange">about me.</b>
                 </p>
                 <div class="social__list">
@@ -77,7 +77,7 @@ Dan's E-Portfolio!
             </div>
         </header>
         
-        <button class="mail__btn click" aria-label="Send email" onclick="toggleModal()">
+        <button class="mail__btn click" aria-label="Send email" data-open-modal data-scroll-target="#landing-page">
             <svg viewBox="0 0 24 24" class="mail__icon" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                 <path d="M20 4H4C2.897 4 2 4.897 2 6v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm0 2-8 5-8-5h16zm0 12H4V8.868l8 5 8-5V18z"/>
             </svg>
@@ -88,8 +88,8 @@ Dan's E-Portfolio!
         <div class="modal">
             <div class="modal__half modal__about">
                 <h3 class="modal__title modal__title--about">Here's <span class="orange">a bit about me</span></h3>
-                <h4 class="modal__sub-title modal__sub-title--about">Frontend Software Engineer.</h4>
-                <p class="modal__para">I am a 19 year old aspiring <b class="orange">Frontend Software Developer</b> with a strong passion for building websites with great <b class="orange">user experiences.</b><br><br>I currently work on extremely difficult engineering problems and learn from a team consisting of the most <b class="orange">talented</b> and <b class="orange">experienced</b> software engineers every day.</p>
+                <h4 class="modal__sub-title modal__sub-title--about">Aspiring Frontend Developer.</h4>
+                <p class="modal__para">I am a 19 year old aspiring <b class="orange">frontend developer</b> with a strong passion for building websites with thoughtful <b class="orange">user experiences.</b><br><br>I am focused on sharpening my skills, building stronger projects, and learning from talented and <b class="orange">experienced</b> engineers every day.</p>
 
                 <div class="modal__languages" aria-hidden="false">
                     <div class="modal__language modal__language--html">
@@ -112,13 +112,13 @@ Dan's E-Portfolio!
 
             </div>
             <div class="modal__half modal__contact">
-                        <i class="click fas fa-times modal__exit" onclick="toggleModal()"></i>
+                        <i class="click fas fa-times modal__exit" data-close-modal></i>
 
 <h3 class="modal__title modal__title--contact">
     Hey, let's talk!
 </h3>
 <h3 class="modal__sub-title modal__sub-title--contact">
-    I'm currently open to new opportunities and looking to connect with like-minded professionals in the tech industry.
+    I'm an aspiring frontend developer who is open to opportunities and looking to connect with like-minded people in tech.
 </h3>
 <form id="contact__form" onsubmit="contact(event)">
     <div class="form__item">
@@ -180,12 +180,12 @@ Thanks for reaching out! I'll get back to you as soon as possible.
             <ul class="ul__project__list">
                 <li class="project">
                     <div class="project__wrapper" onclick="window.open('https://captainfredric.github.io/God-s-Eye/','_blank')">
-                        <img src="./assets/gods-eye-preview.png" class="project__img" alt="Panopticon Earth — God's Eye project screenshot">
+                        <img src="./assets/gods-eye-preview.png" class="project__img" alt="Panopticon Earth, God's Eye project screenshot">
                         <div class="project__description">
                             <h3 class="project__description--title">Panopticon Earth</h3>
                             <h4 class="project__description--sub-title orange">JavaScript, CesiumJS, Vite, CSS</h4>
                             <p class="project__description--para">
-                                A globe-first geospatial intelligence experience inspired by Google Earth and command interfaces. Features a live-refreshing 3D Earth with commercial flights, military traffic, satellites, maritime routes, and incident zones — complete with glass HUD panels and geocoding search.
+                                A globe-first geospatial intelligence experience inspired by Google Earth and command interfaces. It features a live-refreshing 3D Earth with commercial flights, military traffic, satellites, maritime routes, incident zones, glass HUD panels, and geocoding search.
                             </p>
                             <div class="project__description--links" onclick="event.stopPropagation()">
                                 <a href="https://captainfredric.github.io/God-s-Eye/" target="_blank" rel="noopener" class="project__description--link" aria-label="View live site">
@@ -200,12 +200,12 @@ Thanks for reaching out! I'll get back to you as soon as possible.
                 </li>
                 <li class="project">
                     <div class="project__wrapper" onclick="window.open('https://captainfredric.github.io/ContentForge/','_blank')">
-                        <img src="./assets/contentforge-preview.png" class="project__img" alt="ContentForge — content scoring API live demo screenshot">
+                        <img src="./assets/contentforge-preview.png" class="project__img" alt="ContentForge content scoring API live demo screenshot">
                         <div class="project__description">
                             <h3 class="project__description--title">ContentForge</h3>
                             <h4 class="project__description--sub-title orange">Python, Flask, RapidAPI, Chrome Extension</h4>
                             <p class="project__description--para">
-                                A content intelligence API with 47 endpoints across 12 platforms. Deterministic heuristic scoring grades tweets, LinkedIn posts, headlines, and email subjects with an A–F verdict in under 50ms — no AI in the scoring path. Includes a Chrome extension for real-time scoring and is live on RapidAPI with tiered pricing.
+                                A content intelligence API with 47 endpoints across 12 platforms. Deterministic heuristic scoring grades tweets, LinkedIn posts, headlines, and email subjects with an A-F verdict in under 50ms. It includes a Chrome extension for real-time scoring and is live on RapidAPI with tiered pricing.
                             </p>
                             <div class="project__description--links" onclick="event.stopPropagation()">
                                 <a href="https://captainfredric.github.io/ContentForge/" target="_blank" rel="noopener" class="project__description--link" aria-label="View ContentForge live site">
@@ -219,16 +219,16 @@ Thanks for reaching out! I'll get back to you as soon as possible.
                     </div>
                 </li>
                 <li class="project">
-                    <div class="project__wrapper" onclick="window.open('https://captainfredric.github.io/The-Terminal/','_blank')">
-                        <img src="./assets/meridian-preview.png" class="project__img" alt="Meridian — Bloomberg-inspired market workspace screenshot">
+                    <div class="project__wrapper" onclick="window.open('https://captainfredric.github.io/The-Terminal-Meridian/','_blank')">
+                        <img src="./assets/meridian-preview-live.png" class="project__img" alt="Meridian market workspace screenshot">
                         <div class="project__description">
                             <h3 class="project__description--title">Meridian</h3>
                             <h4 class="project__description--sub-title orange">JavaScript, Flask, SQLite, CSS</h4>
                             <p class="project__description--para">
-                                A Bloomberg-inspired financial market workspace with a real Flask + SQLite backend, authenticated sessions, and persistent workspaces. Features a four-panel terminal with live quotes, charts, news, watchlists, options chains, and a custom LogicEngine that parses IF/THEN alert rules against live market state.
+                                A market workspace with a real Flask and SQLite backend, authenticated sessions, and persistent workspaces. It features a four-panel terminal with live quotes, charts, news, watchlists, options chains, and a custom LogicEngine that parses IF/THEN alert rules against live market state.
                             </p>
                             <div class="project__description--links" onclick="event.stopPropagation()">
-                                <a href="https://captainfredric.github.io/The-Terminal/" target="_blank" rel="noopener" class="project__description--link" aria-label="View Meridian live site">
+                                <a href="https://captainfredric.github.io/The-Terminal-Meridian/" target="_blank" rel="noopener" class="project__description--link" aria-label="View Meridian live site">
                                     <i class="fas fa-link"></i>
                                 </a>
                                 <a href="https://github.com/CaptainFredric/The-Terminal" target="_blank" rel="noopener" class="project__description--link" aria-label="View Meridian source on GitHub">
@@ -252,7 +252,7 @@ Thanks for reaching out! I'll get back to you as soon as possible.
                 <a href="https://www.linkedin.com/in/aden-cisneros/" target="_blank" rel="noopener" class="footer__social--link">LinkedIn</a>
                 <a href="mailto:cisnerosadencode@gmail.com" class="footer__social--link">Email</a>
                 <a href="./resume.html" target="_blank" rel="noopener" class="footer__social--link">Resume</a>
-                <a href="#landing-page" class="footer__social--link" onclick="toggleModal()">Contact</a>
+                <a href="#landing-page" class="footer__social--link" data-open-modal>Contact</a>
             </div>
             <div class="footer__copyright"> Copyright &copy; 2024 Aden Cisneros (aka.Dan Debugger)</div>
         </div>

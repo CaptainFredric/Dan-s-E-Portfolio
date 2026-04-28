@@ -1,0 +1,390 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1467" height="768" viewBox="0 0 1467 768" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="768" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1017"/>
+      <stop offset="1" stop-color="#0A0E14"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#111923"/>
+      <stop offset="1" stop-color="#0E151E"/>
+    </linearGradient>
+    <linearGradient id="chartFill" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#111C28"/>
+      <stop offset="1" stop-color="#0B121A"/>
+    </linearGradient>
+    <filter id="shadow" x="-20" y="-20" width="150%" height="150%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="1467" height="768" fill="#06090D"/>
+  <rect x="16" y="20" width="1252" height="728" rx="10" fill="url(#bg)" stroke="#182230" filter="url(#shadow)"/>
+
+  <rect x="28" y="30" width="1228" height="36" rx="8" fill="#0F151D" stroke="#1B2734"/>
+  <rect x="40" y="39" width="22" height="18" rx="4" fill="#1D2D48"/>
+  <path d="M45 53V43H48L51 46L54 43H57V53" stroke="#4ADE80" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="72" y="49" fill="#E5E7EB" font-family="Roboto, Arial, sans-serif" font-size="13" font-weight="700">Meridian</text>
+
+  <rect x="136" y="36" width="58" height="22" rx="11" fill="#1C2431" stroke="#2A3748"/>
+  <circle cx="146" cy="47" r="3" fill="#EAB308"/>
+  <text x="153" y="50" fill="#9CA3AF" font-family="Roboto, Arial, sans-serif" font-size="10">Weekend</text>
+
+  <rect x="198" y="36" width="58" height="22" rx="11" fill="#1C2431" stroke="#2A3748"/>
+  <circle cx="208" cy="47" r="3" fill="#EF4444"/>
+  <text x="215" y="50" fill="#9CA3AF" font-family="Roboto, Arial, sans-serif" font-size="10">Offline</text>
+
+  <rect x="260" y="36" width="76" height="22" rx="11" fill="#1C2431" stroke="#2A3748"/>
+  <circle cx="270" cy="47" r="3" fill="#3B82F6"/>
+  <text x="277" y="50" fill="#9CA3AF" font-family="Roboto, Arial, sans-serif" font-size="10">Guest</text>
+  <text x="305" y="50" fill="#6B7280" font-family="Roboto, Arial, sans-serif" font-size="10">•</text>
+  <text x="313" y="50" fill="#9CA3AF" font-family="Roboto, Arial, sans-serif" font-size="10">Local</text>
+
+  <rect x="343" y="36" width="68" height="22" rx="11" fill="#16212C" stroke="#23434D"/>
+  <circle cx="353" cy="47" r="3" fill="#10B981"/>
+  <text x="360" y="50" fill="#9CA3AF" font-family="Roboto, Arial, sans-serif" font-size="10">423 live</text>
+
+  <rect x="743" y="34" width="26" height="26" rx="6" fill="#101823" stroke="#243040"/>
+  <circle cx="756" cy="47" r="5" stroke="#D1D5DB" stroke-width="1.2"/>
+  <path d="M760 50L763 53" stroke="#D1D5DB" stroke-width="1.2" stroke-linecap="round"/>
+  <text x="786" y="49" fill="#9CA3AF" font-family="Roboto, Arial, sans-serif" font-size="12">Cmd+K</text>
+  <rect x="838" y="34" width="22" height="26" rx="6" fill="#101823" stroke="#243040"/>
+  <path d="M845 47C845 44.8 846.8 43 849 43C851.2 43 853 44.8 853 47V51H845V47Z" stroke="#E5E7EB" stroke-width="1.2"/>
+  <rect x="844.5" y="51" width="9" height="5" rx="1.5" stroke="#E5E7EB" stroke-width="1.2"/>
+
+  <rect x="874" y="34" width="72" height="26" rx="13" fill="#1A2230" stroke="#2C3850"/>
+  <path d="M888 47H894" stroke="#FCD34D" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M891 44V50" stroke="#FCD34D" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="900" y="49" fill="#F3F4F6" font-family="Roboto, Arial, sans-serif" font-size="11">Try Pro free</text>
+  <text x="958" y="49" fill="#9CA3AF" font-family="Roboto, Arial, sans-serif" font-size="11">Share</text>
+  <text x="1013" y="49" fill="#FCD34D" font-family="Roboto, Arial, sans-serif" font-size="11">Tour</text>
+  <text x="1060" y="49" fill="#D1D5DB" font-family="Roboto, Arial, sans-serif" font-size="11">Theme</text>
+  <text x="1118" y="49" fill="#9CA3AF" font-family="Roboto, Arial, sans-serif" font-size="11">Auto-jump: On</text>
+  <text x="1205" y="49" fill="#D1D5DB" font-family="Roboto, Arial, sans-serif" font-size="11">Grid</text>
+
+  <rect x="28" y="74" width="1228" height="18" rx="4" fill="#0B121A" stroke="#16202B"/>
+  <g font-family="IBM Plex Mono, monospace" font-size="10">
+    <text x="40" y="87" fill="#9CA3AF">NVDA</text><text x="74" y="87" fill="#9CA3AF">$903.12</text><text x="126" y="87" fill="#22C55E">▲ +0.08%</text>
+    <text x="230" y="87" fill="#9CA3AF">QQQ</text><text x="257" y="87" fill="#9CA3AF">$441.37</text><text x="309" y="87" fill="#22C55E">▲ +0.08%</text>
+    <text x="412" y="87" fill="#9CA3AF">TSLA</text><text x="445" y="87" fill="#9CA3AF">$196.72</text><text x="496" y="87" fill="#22C55E">▲ +0.08%</text>
+    <text x="598" y="87" fill="#9CA3AF">BTC-USD</text><text x="649" y="87" fill="#9CA3AF">$68,420</text><text x="704" y="87" fill="#22C55E">▲ +0.08%</text>
+    <text x="814" y="87" fill="#9CA3AF">SPY</text><text x="840" y="87" fill="#9CA3AF">$513.91</text><text x="891" y="87" fill="#22C55E">▲ +0.08%</text>
+    <text x="990" y="87" fill="#9CA3AF">TLT</text><text x="1014" y="87" fill="#9CA3AF">$92.61</text><text x="1059" y="87" fill="#22C55E">▲ +0.08%</text>
+    <text x="1138" y="87" fill="#9CA3AF">AAPL</text><text x="1170" y="87" fill="#9CA3AF">$214.72</text><text x="1217" y="87" fill="#22C55E">▲ +0.08%</text>
+  </g>
+
+  <g>
+    <rect x="28" y="92" width="139" height="74" rx="6" fill="#111822" stroke="#223040"/>
+    <text x="36" y="108" fill="#6B7280" font-family="IBM Plex Mono, monospace" font-size="10">SPY</text>
+    <text x="36" y="122" fill="#6B7280" font-family="IBM Plex Mono, monospace" font-size="10">$513.91</text>
+    <polyline points="36,148 50,150 64,146 78,152 92,144 106,142 120,147 134,141" fill="none" stroke="#22C55E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g>
+    <rect x="174" y="92" width="139" height="74" rx="6" fill="#111822" stroke="#223040"/>
+    <text x="182" y="108" fill="#6B7280" font-family="IBM Plex Mono, monospace" font-size="10">QQQ</text>
+    <text x="182" y="122" fill="#6B7280" font-family="IBM Plex Mono, monospace" font-size="10">$441.37</text>
+    <polyline points="182,148 196,151 210,147 224,145 238,144 252,149 266,140 300,139" fill="none" stroke="#22C55E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g>
+    <rect x="320" y="92" width="139" height="74" rx="6" fill="#111822" stroke="#223040"/>
+    <text x="328" y="108" fill="#6B7280" font-family="IBM Plex Mono, monospace" font-size="10">NVDA</text>
+    <text x="328" y="122" fill="#6B7280" font-family="IBM Plex Mono, monospace" font-size="10">$903.12</text>
+    <polyline points="328,150 348,149 368,143 388,147 408,146 420,145 426,130 448,137" fill="none" stroke="#22C55E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g>
+    <rect x="466" y="92" width="139" height="74" rx="6" fill="#111822" stroke="#223040"/>
+    <text x="474" y="108" fill="#6B7280" font-family="IBM Plex Mono, monospace" font-size="10">TLT</text>
+    <text x="474" y="122" fill="#6B7280" font-family="IBM Plex Mono, monospace" font-size="10">$92.61</text>
+    <polyline points="474,142 490,138 506,145 522,141 538,140 554,148 570,143 596,144" fill="none" stroke="#EF4444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g>
+    <rect x="612" y="92" width="139" height="74" rx="6" fill="#111822" stroke="#223040"/>
+    <text x="620" y="108" fill="#6B7280" font-family="IBM Plex Mono, monospace" font-size="10">BTC-USD</text>
+    <text x="620" y="122" fill="#6B7280" font-family="IBM Plex Mono, monospace" font-size="10">$68,420</text>
+    <polyline points="620,148 636,146 652,144 668,147 684,142 700,145 716,141 742,146" fill="none" stroke="#22C55E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g>
+    <rect x="758" y="92" width="139" height="74" rx="6" fill="#111822" stroke="#223040"/>
+    <text x="766" y="108" fill="#6B7280" font-family="IBM Plex Mono, monospace" font-size="10">AAPL</text>
+    <text x="766" y="122" fill="#6B7280" font-family="IBM Plex Mono, monospace" font-size="10">$214.72</text>
+    <polyline points="766,139 782,145 798,150 814,143 830,141 846,141 862,147 888,146" fill="none" stroke="#EF4444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <rect x="904" y="92" width="352" height="74" rx="6" fill="#101822" stroke="#223040"/>
+  <text x="918" y="110" fill="#8B95A5" font-family="IBM Plex Mono, monospace" font-size="10">MARKET PULSE</text>
+  <text x="1208" y="110" fill="#E5E7EB" font-family="Roboto, Arial, sans-serif" font-size="12" font-weight="700">Weekend</text>
+  <text x="918" y="130" fill="#8B95A5" font-family="IBM Plex Mono, monospace" font-size="10">BREADTH</text>
+  <text x="1020" y="130" fill="#8B95A5" font-family="IBM Plex Mono, monospace" font-size="10">AVG</text>
+  <text x="918" y="150" fill="#E5E7EB" font-family="Roboto, Arial, sans-serif" font-size="18" font-weight="700">0T 0L</text>
+  <text x="1010" y="150" fill="#22C55E" font-family="Roboto, Arial, sans-serif" font-size="14" font-weight="700">+0.00%</text>
+  <path d="M1215 150L1220 145L1225 150" stroke="#EF4444" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="1230" y="150" fill="#8B95A5" font-family="Roboto, Arial, sans-serif" font-size="12">--</text>
+
+  <rect x="28" y="180" width="172" height="548" rx="6" fill="#0E151E" stroke="#223040"/>
+  <text x="40" y="196" fill="#E5E7EB" font-family="Roboto, Arial, sans-serif" font-size="12" font-weight="700">WATCHLIST</text>
+  <text x="156" y="196" fill="#9CA3AF" font-family="IBM Plex Mono, monospace" font-size="11">5 / 16</text>
+  <rect x="40" y="205" width="44" height="18" rx="3" fill="#23314A"/>
+  <text x="48" y="218" fill="#F8FAFC" font-family="Roboto, Arial, sans-serif" font-size="10" font-weight="700">Main</text>
+  <rect x="88" y="205" width="16" height="18" rx="3" fill="#121B27" stroke="#273547"/>
+  <text x="93" y="218" fill="#9CA3AF" font-family="Roboto, Arial, sans-serif" font-size="10">+</text>
+
+  <g font-family="Roboto, Arial, sans-serif">
+    <rect x="40" y="238" width="144" height="48" rx="6" fill="#121B27" stroke="#2B3A4C"/>
+    <text x="50" y="254" fill="#E5E7EB" font-size="12" font-weight="700">MSFT</text>
+    <text x="50" y="268" fill="#8B95A5" font-size="10">Microsoft</text>
+    <text x="136" y="254" fill="#E5E7EB" font-size="12" font-weight="700">$427.35</text>
+    <text x="140" y="268" fill="#22C55E" font-size="10">--</text>
+    <polyline points="96,276 110,275 124,272 138,271 152,274 166,272" fill="none" stroke="#22C55E" stroke-width="2" stroke-linecap="round"/>
+
+    <rect x="40" y="292" width="144" height="48" rx="6" fill="#121B27" stroke="#2B3A4C"/>
+    <text x="50" y="308" fill="#E5E7EB" font-size="12" font-weight="700">NVDA</text>
+    <text x="50" y="322" fill="#8B95A5" font-size="10">NVIDIA</text>
+    <text x="136" y="308" fill="#E5E7EB" font-size="12" font-weight="700">$903.12</text>
+    <text x="140" y="322" fill="#22C55E" font-size="10">--</text>
+    <polyline points="96,330 110,331 124,330 138,330 152,318 166,322" fill="none" stroke="#22C55E" stroke-width="2" stroke-linecap="round"/>
+
+    <rect x="40" y="346" width="144" height="48" rx="6" fill="#121B27" stroke="#2B3A4C"/>
+    <text x="50" y="362" fill="#E5E7EB" font-size="12" font-weight="700">QQQ</text>
+    <text x="50" y="376" fill="#8B95A5" font-size="10">Invesco QQQ</text>
+    <text x="136" y="362" fill="#E5E7EB" font-size="12" font-weight="700">$441.37</text>
+    <text x="140" y="376" fill="#22C55E" font-size="10">--</text>
+
+    <rect x="40" y="400" width="144" height="48" rx="6" fill="#121B27" stroke="#2B3A4C"/>
+    <text x="50" y="416" fill="#E5E7EB" font-size="12" font-weight="700">TSLA</text>
+    <text x="50" y="430" fill="#8B95A5" font-size="10">Tesla</text>
+    <text x="136" y="416" fill="#E5E7EB" font-size="12" font-weight="700">$196.72</text>
+    <text x="140" y="430" fill="#22C55E" font-size="10">--</text>
+  </g>
+
+  <rect x="210" y="180" width="420" height="548" rx="6" fill="#0E151E" stroke="#223040"/>
+  <text x="222" y="196" fill="#E5E7EB" font-family="Roboto, Arial, sans-serif" font-size="12" font-weight="700">BRIEFING</text>
+  <rect x="387" y="184" width="16" height="14" rx="3" fill="#121B27" stroke="#273547"/>
+  <text x="392" y="194" fill="#9CA3AF" font-family="Roboto, Arial, sans-serif" font-size="9">‹</text>
+  <rect x="407" y="184" width="16" height="14" rx="3" fill="#121B27" stroke="#273547"/>
+  <text x="412" y="194" fill="#9CA3AF" font-family="Roboto, Arial, sans-serif" font-size="9">›</text>
+  <rect x="427" y="184" width="16" height="14" rx="3" fill="#121B27" stroke="#273547"/>
+  <text x="431" y="194" fill="#9CA3AF" font-family="Roboto, Arial, sans-serif" font-size="9">▶</text>
+
+  <rect x="222" y="210" width="396" height="174" rx="6" fill="#111A24" stroke="#273547"/>
+  <text x="236" y="230" fill="#E5E7EB" font-family="Roboto, Arial, sans-serif" font-size="14" font-weight="700">Meridian Briefing</text>
+  <text x="548" y="232" fill="#8B95A5" font-family="IBM Plex Mono, monospace" font-size="10">00:35 • Waking server</text>
+
+  <g font-family="Roboto, Arial, sans-serif">
+    <rect x="236" y="244" width="88" height="74" rx="4" fill="#121B27" stroke="#273547"/>
+    <text x="250" y="258" fill="#6B7280" font-size="10">MARKET PHASE</text>
+    <text x="250" y="278" fill="#F3F4F6" font-size="22" font-weight="700">Weekend</text>
+    <text x="250" y="298" fill="#8B95A5" font-size="11">Server waking up</text>
+    <text x="250" y="312" fill="#8B95A5" font-size="11">free tier cold start</text>
+
+    <rect x="334" y="244" width="90" height="74" rx="4" fill="#121B27" stroke="#273547"/>
+    <text x="348" y="258" fill="#6B7280" font-size="10">REGIME</text>
+    <text x="348" y="278" fill="#F3F4F6" font-size="22" font-weight="700">Neutral</text>
+    <text x="348" y="298" fill="#8B95A5" font-size="11">Breadth 50%</text>
+
+    <rect x="434" y="244" width="90" height="74" rx="4" fill="#121B27" stroke="#273547"/>
+    <text x="448" y="258" fill="#6B7280" font-size="10">BREADTH</text>
+    <text x="448" y="278" fill="#F3F4F6" font-size="22" font-weight="700">58%</text>
+    <text x="448" y="298" fill="#8B95A5" font-size="11">0 up • 0 down</text>
+
+    <rect x="534" y="244" width="70" height="74" rx="4" fill="#121B27" stroke="#273547"/>
+    <text x="546" y="258" fill="#6B7280" font-size="10">VOLATILITY</text>
+    <text x="546" y="278" fill="#F3F4F6" font-size="22" font-weight="700">0.064</text>
+    <text x="546" y="298" fill="#8B95A5" font-size="11">Low avg abs</text>
+  </g>
+
+  <rect x="236" y="326" width="88" height="56" rx="4" fill="#121B27" stroke="#273547"/>
+  <text x="248" y="340" fill="#6B7280" font-family="Roboto, Arial, sans-serif" font-size="10">NEWS TONE</text>
+  <text x="248" y="362" fill="#F3F4F6" font-family="Roboto, Arial, sans-serif" font-size="22" font-weight="700">0%</text>
+  <text x="248" y="376" fill="#8B95A5" font-family="Roboto, Arial, sans-serif" font-size="11">0+ 0- 18= of 18</text>
+
+  <g font-family="Roboto, Arial, sans-serif">
+    <rect x="222" y="396" width="98" height="92" rx="6" fill="#111A24" stroke="#273547"/>
+    <text x="234" y="420" fill="#6B7280" font-size="10">ANCHOR SYMBOL</text>
+    <text x="234" y="438" fill="#F3F4F6" font-size="28" font-weight="700">AAPL</text>
+    <text x="234" y="456" fill="#8B95A5" font-size="12">214.72</text>
+
+    <rect x="328" y="396" width="98" height="92" rx="6" fill="#111A24" stroke="#273547"/>
+    <text x="340" y="420" fill="#6B7280" font-size="10">ACTIVE ALERTS</text>
+    <text x="340" y="438" fill="#F3F4F6" font-size="28" font-weight="700">2</text>
+    <text x="340" y="456" fill="#8B95A5" font-size="12">2 WATCHING</text>
+
+    <rect x="434" y="396" width="98" height="92" rx="6" fill="#111A24" stroke="#273547"/>
+    <text x="446" y="420" fill="#6B7280" font-size="10">RULES ENGINE</text>
+    <text x="446" y="438" fill="#F3F4F6" font-size="28" font-weight="700">3</text>
+    <text x="446" y="456" fill="#8B95A5" font-size="12">ACTIVE RULES</text>
+
+    <rect x="540" y="396" width="78" height="92" rx="6" fill="#111A24" stroke="#273547"/>
+    <text x="552" y="420" fill="#6B7280" font-size="10">WATCHLIST</text>
+    <text x="552" y="438" fill="#F3F4F6" font-size="28" font-weight="700">5</text>
+    <text x="552" y="456" fill="#8B95A5" font-size="12">TRACKED</text>
+  </g>
+
+  <rect x="222" y="500" width="396" height="214" rx="6" fill="#111A24" stroke="#273547"/>
+  <text x="236" y="520" fill="#E5E7EB" font-family="Roboto, Arial, sans-serif" font-size="14" font-weight="700">Sector Rotation</text>
+  <text x="572" y="520" fill="#8B95A5" font-family="Roboto, Arial, sans-serif" font-size="11">10 sectors</text>
+  <g font-family="Roboto, Arial, sans-serif" font-size="12">
+    <text x="236" y="548" fill="#E5E7EB" font-weight="700">Technology</text>
+    <rect x="244" y="556" width="340" height="4" rx="2" fill="#243244"/>
+    <text x="572" y="562" fill="#8B95A5" font-size="10">+0.03%</text>
+    <text x="236" y="590" fill="#E5E7EB" font-weight="700">Services</text>
+    <rect x="244" y="598" width="340" height="4" rx="2" fill="#243244"/>
+    <text x="572" y="604" fill="#8B95A5" font-size="10">+0.02%</text>
+    <text x="236" y="632" fill="#E5E7EB" font-weight="700">Discretionary</text>
+    <rect x="244" y="640" width="340" height="4" rx="2" fill="#243244"/>
+    <text x="572" y="646" fill="#8B95A5" font-size="10">+0.01%</text>
+    <text x="236" y="674" fill="#E5E7EB" font-weight="700">Staples</text>
+    <rect x="244" y="682" width="340" height="4" rx="2" fill="#243244"/>
+    <text x="572" y="688" fill="#8B95A5" font-size="10">+0.00%</text>
+    <text x="236" y="716" fill="#E5E7EB" font-weight="700">Health Care</text>
+    <rect x="244" y="724" width="340" height="4" rx="2" fill="#243244"/>
+    <text x="572" y="730" fill="#8B95A5" font-size="10">-0.03%</text>
+  </g>
+
+  <rect x="646" y="180" width="610" height="548" rx="6" fill="#0E151E" stroke="#223040"/>
+  <text x="660" y="196" fill="#E5E7EB" font-family="Roboto, Arial, sans-serif" font-size="12" font-weight="700">CHART · AAPL</text>
+  <g font-family="Roboto, Arial, sans-serif" font-size="10">
+    <rect x="662" y="210" width="28" height="20" rx="10" fill="#3B82F6"/>
+    <text x="671" y="223" fill="#F8FAFC">5D</text>
+    <rect x="698" y="210" width="28" height="20" rx="10" fill="#121B27" stroke="#273547"/><text x="707" y="223" fill="#9CA3AF">1M</text>
+    <rect x="734" y="210" width="28" height="20" rx="10" fill="#121B27" stroke="#273547"/><text x="742" y="223" fill="#9CA3AF">3M</text>
+    <rect x="770" y="210" width="28" height="20" rx="10" fill="#121B27" stroke="#273547"/><text x="779" y="223" fill="#9CA3AF">6M</text>
+    <rect x="806" y="210" width="33" height="20" rx="10" fill="#121B27" stroke="#273547"/><text x="814" y="223" fill="#9CA3AF">YTD</text>
+    <rect x="845" y="210" width="28" height="20" rx="10" fill="#121B27" stroke="#273547"/><text x="854" y="223" fill="#9CA3AF">1Y</text>
+    <rect x="881" y="210" width="28" height="20" rx="10" fill="#121B27" stroke="#273547"/><text x="889" y="223" fill="#9CA3AF">2Y</text>
+    <rect x="917" y="210" width="28" height="20" rx="10" fill="#121B27" stroke="#273547"/><text x="925" y="223" fill="#9CA3AF">5Y</text>
+    <rect x="953" y="210" width="32" height="20" rx="10" fill="#121B27" stroke="#273547"/><text x="963" y="223" fill="#9CA3AF">ALL</text>
+  </g>
+  <text x="1008" y="224" fill="#6B7280" font-family="Roboto, Arial, sans-serif" font-size="10">Quote</text>
+  <text x="1056" y="224" fill="#6B7280" font-family="Roboto, Arial, sans-serif" font-size="10">Options</text>
+  <text x="661" y="248" fill="#6B7280" font-family="Roboto, Arial, sans-serif" font-size="10">News</text>
+  <text x="878" y="248" fill="#6B7280" font-family="Roboto, Arial, sans-serif" font-size="10">+ Compare</text>
+  <rect x="1189" y="236" width="42" height="20" rx="6" fill="#F8FAFC"/><text x="1198" y="250" fill="#111827" font-family="Roboto, Arial, sans-serif" font-size="10" font-weight="700">Refresh</text>
+
+  <rect x="660" y="264" width="580" height="334" rx="6" fill="url(#chartFill)" stroke="#273547"/>
+  <rect x="676" y="278" width="110" height="16" rx="3" fill="#5B4720"/><text x="684" y="290" fill="#FCD34D" font-family="IBM Plex Mono, monospace" font-size="10">Stale snapshot · 00:35</text>
+  <g font-family="Roboto, Arial, sans-serif" font-size="9">
+    <rect x="684" y="304" width="40" height="16" rx="2" fill="#1E3A5F" stroke="#38BDF8"/><text x="691" y="315" fill="#67E8F9">SMA(20)</text>
+    <rect x="730" y="304" width="32" height="16" rx="2" fill="#121B27" stroke="#273547"/><text x="738" y="315" fill="#9CA3AF">EMA (9)</text>
+    <rect x="770" y="304" width="34" height="16" rx="2" fill="#2B2A24" stroke="#6B5D2F"/><text x="778" y="315" fill="#FCD34D">Pro</text>
+    <rect x="810" y="304" width="50" height="16" rx="2" fill="#121B27" stroke="#273547"/><text x="816" y="315" fill="#9CA3AF">Bollinger</text>
+    <rect x="866" y="304" width="34" height="16" rx="2" fill="#2B2A24" stroke="#6B5D2F"/><text x="874" y="315" fill="#FCD34D">Pro</text>
+    <rect x="906" y="304" width="28" height="16" rx="2" fill="#121B27" stroke="#273547"/><text x="914" y="315" fill="#9CA3AF">VWAP</text>
+    <rect x="941" y="304" width="40" height="16" rx="2" fill="#1E3A5F" stroke="#38BDF8"/><text x="950" y="315" fill="#67E8F9">RSI (14)</text>
+    <rect x="987" y="304" width="34" height="16" rx="2" fill="#2B2A24" stroke="#6B5D2F"/><text x="995" y="315" fill="#FCD34D">Pro</text>
+    <rect x="1027" y="304" width="28" height="16" rx="2" fill="#121B27" stroke="#273547"/><text x="1034" y="315" fill="#9CA3AF">MACD</text>
+  </g>
+
+  <g stroke="#1F2937" stroke-width="1">
+    <line x1="676" y1="340" x2="1220" y2="340"/>
+    <line x1="676" y1="405" x2="1220" y2="405"/>
+    <line x1="676" y1="470" x2="1220" y2="470"/>
+    <line x1="676" y1="535" x2="1220" y2="535"/>
+  </g>
+  <line x1="949" y1="340" x2="949" y2="568" stroke="#60A5FA" stroke-dasharray="5 5"/>
+  <line x1="676" y1="447" x2="1220" y2="447" stroke="#10B981" stroke-dasharray="2 4" opacity="0.5"/>
+
+  <g fill="#F87171">
+    <rect x="780" y="419" width="10" height="52"/>
+    <rect x="818" y="433" width="10" height="76"/>
+    <rect x="844" y="382" width="10" height="66"/>
+    <rect x="871" y="395" width="10" height="46"/>
+    <rect x="1043" y="396" width="10" height="60"/>
+    <rect x="1121" y="423" width="10" height="44"/>
+  </g>
+  <g fill="#22C55E">
+    <rect x="690" y="408" width="10" height="70"/>
+    <rect x="716" y="420" width="10" height="44"/>
+    <rect x="742" y="418" width="10" height="55"/>
+    <rect x="896" y="426" width="10" height="62"/>
+    <rect x="922" y="401" width="10" height="74"/>
+    <rect x="949" y="415" width="10" height="38"/>
+    <rect x="975" y="408" width="10" height="42"/>
+    <rect x="1002" y="420" width="10" height="32"/>
+    <rect x="1069" y="427" width="10" height="30"/>
+    <rect x="1095" y="430" width="10" height="24"/>
+    <rect x="1148" y="434" width="10" height="35"/>
+  </g>
+
+  <g stroke="#60A5FA" stroke-width="2" fill="none" opacity="0.55">
+    <path d="M690 462C736 466 762 455 792 448C816 441 836 444 870 436C900 429 942 425 972 420C1002 416 1028 416 1057 421C1095 429 1126 445 1183 439"/>
+  </g>
+  <g stroke="#FBBF24" stroke-width="1.5" fill="none" opacity="0.45">
+    <path d="M690 520C731 525 764 509 796 500C837 489 873 470 912 486C942 498 972 525 1002 514C1036 501 1070 492 1110 510C1134 521 1159 522 1180 514"/>
+  </g>
+
+  <g fill="#14532D" opacity="0.6">
+    <rect x="690" y="532" width="11" height="36"/>
+    <rect x="716" y="540" width="11" height="28"/>
+    <rect x="742" y="548" width="11" height="20"/>
+    <rect x="768" y="528" width="11" height="40"/>
+    <rect x="794" y="544" width="11" height="24"/>
+    <rect x="820" y="550" width="11" height="18"/>
+    <rect x="846" y="520" width="11" height="48"/>
+    <rect x="872" y="510" width="11" height="58"/>
+    <rect x="898" y="536" width="11" height="32"/>
+    <rect x="924" y="548" width="11" height="20"/>
+    <rect x="950" y="555" width="11" height="13"/>
+    <rect x="976" y="548" width="11" height="20"/>
+    <rect x="1002" y="536" width="11" height="32"/>
+    <rect x="1028" y="528" width="11" height="40"/>
+    <rect x="1054" y="516" width="11" height="52"/>
+    <rect x="1080" y="542" width="11" height="26"/>
+    <rect x="1106" y="550" width="11" height="18"/>
+    <rect x="1132" y="552" width="11" height="16"/>
+    <rect x="1158" y="545" width="11" height="23"/>
+  </g>
+
+  <g font-family="Roboto, Arial, sans-serif" font-size="10">
+    <text x="1196" y="350" fill="#9CA3AF">278.00</text>
+    <text x="1196" y="416" fill="#9CA3AF">276.00</text>
+    <text x="1196" y="481" fill="#9CA3AF">272.00</text>
+    <text x="1196" y="546" fill="#9CA3AF">268.00</text>
+    <rect x="1188" y="441" width="41" height="16" rx="3" fill="#10B981"/>
+    <text x="1195" y="452" fill="#F8FAFC">271.06</text>
+    <text x="694" y="584" fill="#9CA3AF">3:30</text>
+    <text x="804" y="584" fill="#9CA3AF">21 Apr '26</text>
+    <text x="944" y="584" fill="#9CA3AF">23</text>
+    <text x="1123" y="584" fill="#9CA3AF">24</text>
+    <text x="1162" y="584" fill="#9CA3AF">19:30</text>
+  </g>
+
+  <g font-family="Roboto, Arial, sans-serif">
+    <rect x="660" y="607" width="72" height="92" rx="6" fill="#111A24" stroke="#273547"/>
+    <text x="672" y="629" fill="#6B7280" font-size="10">RANGE</text>
+    <text x="672" y="653" fill="#F3F4F6" font-size="30" font-weight="700">5D</text>
+    <text x="672" y="674" fill="#8B95A5" font-size="11">AAPL • -36</text>
+    <text x="672" y="688" fill="#8B95A5" font-size="11">PTS</text>
+
+    <rect x="740" y="607" width="76" height="92" rx="6" fill="#111A24" stroke="#273547"/>
+    <text x="752" y="629" fill="#6B7280" font-size="10">HIGH</text>
+    <text x="752" y="653" fill="#F3F4F6" font-size="20" font-weight="700">$274.17</text>
+    <text x="752" y="674" fill="#8B95A5" font-size="11">PERIOD HIGH</text>
+
+    <rect x="824" y="607" width="76" height="92" rx="6" fill="#111A24" stroke="#273547"/>
+    <text x="836" y="629" fill="#6B7280" font-size="10">LOW</text>
+    <text x="836" y="653" fill="#F3F4F6" font-size="20" font-weight="700">$265.86</text>
+    <text x="836" y="674" fill="#8B95A5" font-size="11">PERIOD LOW</text>
+
+    <rect x="908" y="607" width="76" height="92" rx="6" fill="#111A24" stroke="#273547"/>
+    <text x="920" y="629" fill="#6B7280" font-size="10">RETURN</text>
+    <text x="920" y="653" fill="#F3F4F6" font-size="20" font-weight="700">-0.85%</text>
+    <text x="920" y="674" fill="#8B95A5" font-size="11">START → END</text>
+
+    <rect x="992" y="607" width="76" height="92" rx="6" fill="#111A24" stroke="#273547"/>
+    <text x="1004" y="629" fill="#6B7280" font-size="10">RSI(14)</text>
+    <text x="1004" y="653" fill="#F3F4F6" font-size="30" font-weight="700">44.7</text>
+    <text x="1004" y="674" fill="#8B95A5" font-size="11">NEUTRAL</text>
+  </g>
+
+  <g font-family="Roboto, Arial, sans-serif" font-size="10">
+    <rect x="667" y="713" width="8" height="8" fill="#60A5FA"/><text x="679" y="720" fill="#9CA3AF">SMA(20)</text>
+    <rect x="734" y="713" width="8" height="8" fill="#FBBF24"/><text x="746" y="720" fill="#9CA3AF">RSI(14)</text>
+    <rect x="801" y="713" width="8" height="8" fill="#14532D"/><text x="813" y="720" fill="#9CA3AF">Volume</text>
+  </g>
+
+  <rect x="1268" y="0" width="199" height="768" fill="#0E141B"/>
+  <rect x="1267.5" y="0.5" width="198" height="767" stroke="#1F2937"/>
+  <text x="1288" y="34" fill="#F3F4F6" font-family="Roboto, Arial, sans-serif" font-size="18" font-weight="700">Notifications</text>
+  <text x="1387" y="34" fill="#9CA3AF" font-family="Roboto, Arial, sans-serif" font-size="12">Clear all</text>
+  <rect x="1430" y="16" width="22" height="22" rx="6" fill="#101923" stroke="#273547"/>
+  <text x="1438" y="31" fill="#9CA3AF" font-family="Roboto, Arial, sans-serif" font-size="12">×</text>
+</svg>
