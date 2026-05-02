@@ -33,7 +33,7 @@ A content scoring API with 47 endpoints across 12 platforms. Scores tweets, Link
 
 An interactive 3D Earth built with CesiumJS, displaying simulated data layers: commercial flights, military traffic, satellites, maritime routes, and incident zones. Includes geocoding search via OpenStreetMap, persistent saved camera views in localStorage, and a glass-panel HUD layout. Deployed via GitHub Actions to GitHub Pages.
 
-→ [GitHub](https://github.com/CaptainFredric/God-s-Eye)
+→ [God's 3rd Eye](https://github.com/CaptainFredric/God-s-Eye)
 
 ---
 
